@@ -8,7 +8,7 @@ public class FooCorporation {
 
      }
      public static void totalPay (  double basePay,double hoursWorked){
-          double overtime = ( hoursWorked - 40)*basePay;
+          double overtime = ( hoursWorked - 40)*(basePay *1.5);
           double calculatePay = 40 * basePay;
 
           if (( hoursWorked<=40 )&& basePay>=8.00) {
